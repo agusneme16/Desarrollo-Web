@@ -1,0 +1,100 @@
+/* Estilo base de body*/
+body{
+    background-color: #1b2828;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e0e0e0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo base de header y el nav*/
+header{
+    background-color: #1a1a2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+header h1{
+    color: #64b5f6;
+    font-size: 20px;   
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover{
+    color: #64b5f6;
+}
+
+/* Imagenes*/
+#infografia {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#fotoauto {
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.texto {
+    max-width: 700px;
+}
+
+/* Main */
+main {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+main h2{
+    color: #64b5f6;
+    margin-bottom: 15px;
+}
+
+main h3{
+    margin-bottom: 10px;
+}
+
+main p{
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Contacto */
+
+main a{
+    color: #64b5f6;
+    text-decoration: none;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+/* Footer general*/
+footer {
+    background-color: #1a1a2e;
+    text-align: center;
+    padding: 15px;
+    color: #888;
+    font-size: 14px;
+}
