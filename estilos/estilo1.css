@@ -90,6 +90,18 @@ main a:hover{
     text-decoration: underline;
 }
 
+.contacto-links {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contacto-item {
+    background-color: #1a1a2e;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
 /* Footer general*/
 footer {
     background-color: #1a1a2e;
@@ -98,3 +110,5 @@ footer {
     color: #888;
     font-size: 14px;
 }
+
+
