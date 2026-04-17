@@ -55,6 +55,16 @@ nav a:hover{
     margin-bottom: 20px;
 }
 
+#fotoperro {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #1e3448;
+    margin-bottom: 20px;
+    display: block;
+}
+
 .texto {
     max-width: 700px;
 }
