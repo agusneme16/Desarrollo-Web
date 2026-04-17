@@ -1,8 +1,8 @@
 /* Estilo base de body*/
 body{
-    background-color: #1b2828;
+    background-color: #1a1a2e;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #e0e0e0;
+    color: #eaeaea;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -12,19 +12,19 @@ body{
 
 /* Estilo base de header y el nav*/
 header{
-    background-color: #1a1a2e;
+    background-color: #16213e;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    border-bottom: 1px solid #1e3448;
+    border-bottom: 1px solid #0f3460;
     position: sticky;
     top: 0;
     z-index: 100;
 }
 
 header h1{
-    color: #64b5f6;
+    color: #e94560;
     font-size: 20px;   
 }
 
@@ -37,7 +37,7 @@ nav ul{
 }
 
 nav a{
-    color: #e0e0e0;
+    color: #eaeaea;
     text-decoration: none;
     font-size: 16px;
     padding: 6px 14px;
@@ -46,8 +46,8 @@ nav a{
 }
 
 nav a:hover{
-    color: #64b5f6;
-    background-color: #1e3d5e;
+    color: #eaeaea;
+    background-color: #e94560;
 }
 
 /* Imagenes*/
@@ -57,7 +57,7 @@ nav a:hover{
     display: block;
     margin-bottom: 20px;
     border-radius: 8px;
-    border: 1px solid #1e3448;
+    border: 1px solid #0f3460;
 }
 
 #fotoauto {
@@ -66,7 +66,7 @@ nav a:hover{
     height: auto;
     margin-bottom: 20px;
     border-radius: 8px;
-    border: 1px solid #1e3448;
+    border: 1px solid #0f3460;
 }
 
 #fotoperro {
@@ -74,9 +74,24 @@ nav a:hover{
     max-width: 500px;
     height: auto;
     border-radius: 8px;
-    border: 1px solid #1e3448;
+    border: 1px solid #0f3460;
     margin-bottom: 20px;
     display: block;
+}
+
+.perro {
+    display: inline-block;
+    background-color: #16213e;
+    border: 1px solid #0f3460;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.perro h3 {
+    color: #e94560;
+    margin-bottom: 14px;
+    font-size: 18px;
 }
 
 .texto {
@@ -93,10 +108,10 @@ main {
 }
 
 main h2{
-    color: #64b5f6;
+    color: #e94560;
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #1e3448;
+    border-bottom: 2px solid #0f3460;
 }
 
 main h3{
@@ -111,7 +126,7 @@ main p{
 /* Contacto */
 
 main a{
-    color: #64b5f6;
+    color: #e94560;
     text-decoration: none;
 }
 
@@ -127,23 +142,23 @@ main a:hover{
 }
 
 .contacto-item {
-    background-color: #1a1a2e;
+    background-color: #16213e;
     padding: 20px 30px;
     border-radius: 8px;
-    border: 1px solid #1e3448;
+    border: 1px solid #0f3460;
     transition: border-color 0.2s ease, transform 0.2s ease;
     min-width: 160px;
 }
 
 .contacto-item:hover {
-    border-color: #64b5f6;
+    border-color: #e94560;
     transform: translateY(-3px);
 }
 
 /* Footer general*/
 footer {
-    background-color: #1a1a2e;
-    border-top: 1px solid #1e3448;
+    background-color: #16213e;
+    border-top: 1px solid #0f3460;
     text-align: center;
     padding: 15px;
     color: #888;
